@@ -70,8 +70,21 @@
 - 问题：给同一个标签设置了相同的样式，此时浏览器会如何渲染呢？  
     > 结果：如果给同一个标签设置了相同的属性，此时样式会层叠（覆盖），写在最下面的会生效
 
+## font（复合属性）  
+
+- 属性名：font（复合属性）  
+- 取值：  
+    > - font: style weight size family;  
+- 省略要求：  
+    > - 只能省略前两个，如果省略了相当于设置了默认值  
+- 注意点：如果需要同时设置单独和连写形式  
+    > - 要么把单独的样式写在连写的下面  
+    > - 要么把单独的样式写在连写的里面
+    > - 否则会被覆盖  
+- eg: 3.3  
+
 ---
 
 ## 学习资料
 
-- 视频：<a href="https://www.bilibili.com/video/BV1Kg411T7t9?spm_id_from=333.788.player.switch&vd_source=0af3f3aee70186db0ff8b48dc6b2a415&p=51">前端开发入门教程，web前端零基础html5 +css3+前端项目视频教程</a>
+- 视频：<a href="https://www.bilibili.com/video/BV1Kg411T7t9?spm_id_from=333.788.player.switch&vd_source=0af3f3aee70186db0ff8b48dc6b2a415&p=51">前端开发入门教程，web前端零基础html5 + css3 + 前端项目视频教程</a>
