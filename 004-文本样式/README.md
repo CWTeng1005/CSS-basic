@@ -42,6 +42,7 @@
 - 行高与font连写的注意点：  
     > - 如果同时设置了行高和font连写，注意覆盖问题  
     > - font: style weight size/line0height family;  
+- eg：4.4
 
 ---  
 
